@@ -1,0 +1,202 @@
+{
+  "Nav": {
+    "brand": "clubhouse",
+    "returnToRoom": "返回你的房间",
+    "opening": "开启中…",
+    "openRoom": "开启房间",
+    "schedule": "排程",
+    "signIn": "登录",
+    "join": "加入",
+    "signOut": "退出登录",
+    "signInToCreate": "请登录以开启或排程房间。"
+  },
+  "Home": {
+    "hero": "今晚有什么话题",
+    "subHero": "走进对话",
+    "comingUp": "即将开始",
+    "empty": "目前一片宁静。",
+    "emptyHint": "成为今晚第一个开启房间的人。",
+    "tonightAt": "今晚 {time}",
+    "tomorrowAt": "明天 {time}",
+    "dateAt": "{date} {time}"
+  },
+  "AuthError": {
+    "title": "认证错误",
+    "fallback": "登录过程中发生问题。",
+    "goHome": "返回首页"
+  },
+  "RoomsPage": {
+    "startRoom": "+ 开启房间",
+    "resultsFor": "搜索结果：{q}",
+    "noRooms": "找不到任何房间。",
+    "noRoomsFor": "找不到「{q}」的相关房间。"
+  },
+  "CreateRoom": {
+    "pageTitle": "排程房间",
+    "back": "← 返回",
+    "roomType": "房间类型",
+    "typeStage": "舞台",
+    "typeStageDesc": "演讲者上台，观众聆听",
+    "typeChitchat": "闲聊",
+    "typeChitchatDesc": "所有人直接以说话者身份加入",
+    "roomTitle": "房间名称",
+    "roomTitlePlaceholder": "例：早安科技聊天室",
+    "slug": "网址代码",
+    "slugPlaceholder": "morning-tech-chat",
+    "description": "描述（选填）",
+    "descriptionPlaceholder": "这个房间在聊什么？",
+    "tags": "标签（以逗号分隔）",
+    "tagsPlaceholder": "科技, AI, 创业",
+    "scheduleForLater": "排程稍后开始",
+    "dateAndTime": "日期与时间",
+    "privateRoom": "私人房间",
+    "password": "密码（选填）",
+    "passwordPlaceholder": "留空表示不设密码",
+    "required": "必填",
+    "slugError": "只能使用小写字母、数字和连字符",
+    "dateRequired": "请选择日期与时间",
+    "dateFuture": "排程时间必须在未来",
+    "alreadyHaveRoom": "你已有一个进行中的房间",
+    "goToExisting": "前往你的房间 →",
+    "creating": "创建中…",
+    "scheduleRoom": "排程房间",
+    "createRoom": "创建房间",
+    "signInToCreate": "你需要登录才能创建或排程房间。",
+    "signIn": "登录"
+  },
+  "RoomPage": {
+    "back": "← 返回",
+    "loading": "加载中…",
+    "draft": "草稿",
+    "listening": "{count} 人正在收听",
+    "chatting": "{count} 人在聊天",
+    "setUp": "设置房间",
+    "edit": "编辑",
+    "live": "直播中",
+    "makePublic": "公开房间"
+  },
+  "RoomLayout": {
+    "signInToJoin": "登录以加入房间"
+  },
+  "LoginModal": {
+    "title": "加入对话",
+    "continueWith": "使用 {name} 继续",
+    "or": "或",
+    "enterAnonymously": "匿名加入"
+  },
+  "AnonModal": {
+    "title": "选择昵称",
+    "description": "你可以使用昵称匿名加入，无需账号。",
+    "nickname": "昵称",
+    "nicknamePlaceholder": "例：好奇的熊猫",
+    "required": "请输入昵称",
+    "error": "创建连接失败，请再试一次。",
+    "cancel": "取消",
+    "joining": "加入中…",
+    "joinAnonymously": "匿名加入"
+  },
+  "ControlBar": {
+    "mute": "静音",
+    "unmute": "取消静音",
+    "camOff": "关闭摄像头",
+    "camOn": "开启摄像头",
+    "stopShare": "停止共享",
+    "shareScreen": "共享屏幕",
+    "notSupported": "不支持",
+    "leaveStage": "离开舞台",
+    "goOnStage": "上台",
+    "listenIn": "收听",
+    "requestStage": "申请上台",
+    "handDown": "放下手",
+    "raiseHand": "举手",
+    "leave": "离开"
+  },
+  "Stage": {
+    "you": "（你）",
+    "noOne": "目前舞台上没有人",
+    "unmute": "取消静音",
+    "mute": "静音",
+    "removeFromStage": "从舞台移除",
+    "kick": "踢出",
+    "ban": "封禁"
+  },
+  "Audience": {
+    "inTheRoom": "房间内 {count} 人",
+    "inviteToStage": "邀请上台",
+    "kick": "踢出",
+    "ban": "封禁"
+  },
+  "Chat": {
+    "placeholder": "说些什么…",
+    "send": "发送",
+    "empty": "说些什么吧"
+  },
+  "Moderation": {
+    "deleteMessage": "删除消息",
+    "muteUser": "将用户静音",
+    "kickUser": "踢出用户"
+  },
+  "HandRaised": {
+    "wantsToSpeak": "✋ {count} 人想发言",
+    "invite": "邀请"
+  },
+  "PasswordModal": {
+    "title": "需要密码",
+    "description": "此房间受密码保护，请输入密码以加入。",
+    "label": "房间密码",
+    "placeholder": "输入密码",
+    "cancel": "取消",
+    "join": "加入房间"
+  },
+  "RoomCard": {
+    "live": "直播中",
+    "startingSoon": "即将开始",
+    "typeStage": "舞台",
+    "typeChitchat": "闲聊",
+    "onStage": "{count} 人在台上",
+    "chatting": "{count} 人在聊天",
+    "total": "共 {count} 人"
+  },
+  "RoomEdit": {
+    "title": "编辑房间",
+    "roomType": "房间类型",
+    "typeStage": "舞台",
+    "typeChitchat": "闲聊",
+    "roomTitle": "房间名称",
+    "roomTitlePlaceholder": "例：早安科技聊天室",
+    "description": "描述（选填）",
+    "descriptionPlaceholder": "这个房间在聊什么？",
+    "tags": "标签（以逗号分隔）",
+    "tagsPlaceholder": "科技, AI, 创业",
+    "privateRoom": "私人房间",
+    "password": "密码（选填）",
+    "passwordPlaceholder": "留空表示不设密码",
+    "passwordKeepExisting": "留空保持原密码",
+    "passwordClear": "输入以清除现有密码",
+    "titleRequired": "房间名称为必填",
+    "cancel": "取消",
+    "saving": "保存中…",
+    "saveChanges": "保存更改"
+  },
+  "RoomSearch": {
+    "placeholder": "搜索房间…",
+    "search": "搜索"
+  },
+  "StageInvite": {
+    "title": "你被邀请上台了！",
+    "description": "主持人或演讲者邀请你发言。接受后，你的麦克风将被开启。",
+    "decline": "拒绝",
+    "accept": "接受并上台"
+  },
+  "Chitchat": {
+    "noOne": "目前还没有人在这里"
+  },
+  "Common": {
+    "roles": {
+      "listener": "听众",
+      "speaker": "演讲者",
+      "host": "主持人",
+      "viewer": "观众"
+    }
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "Nav": {
+    "brand": "clubhouse",
+    "returnToRoom": "Return to your room",
+    "opening": "Opening…",
+    "openRoom": "Open a room",
+    "schedule": "Schedule",
+    "signIn": "Sign in",
+    "join": "Join",
+    "signOut": "Sign out",
+    "signInToCreate": "Sign in to open or schedule a room."
+  },
+  "Home": {
+    "hero": "What's happening tonight",
+    "subHero": "Step inside a conversation",
+    "comingUp": "Coming up",
+    "empty": "The street is quiet.",
+    "emptyHint": "Be the first to open a room tonight.",
+    "tonightAt": "Tonight at {time}",
+    "tomorrowAt": "Tomorrow at {time}",
+    "dateAt": "{date} at {time}"
+  },
+  "AuthError": {
+    "title": "Authentication Error",
+    "fallback": "Something went wrong during sign-in.",
+    "goHome": "Go home"
+  },
+  "RoomsPage": {
+    "startRoom": "+ Start a room",
+    "resultsFor": "Results for: {q}",
+    "noRooms": "No rooms found.",
+    "noRoomsFor": "No rooms found for \"{q}\"."
+  },
+  "CreateRoom": {
+    "pageTitle": "Schedule a room",
+    "back": "← Back",
+    "roomType": "Room type",
+    "typeStage": "Stage",
+    "typeStageDesc": "Speakers on stage, audience listens in",
+    "typeChitchat": "Chitchat",
+    "typeChitchatDesc": "Everyone joins as a speaker",
+    "roomTitle": "Room title",
+    "roomTitlePlaceholder": "e.g. Morning tech catch-up",
+    "slug": "Slug (URL)",
+    "slugPlaceholder": "morning-tech-catchup",
+    "description": "Description (optional)",
+    "descriptionPlaceholder": "What's this room about?",
+    "tags": "Tags (comma separated)",
+    "tagsPlaceholder": "tech, ai, startups",
+    "scheduleForLater": "Schedule for later",
+    "dateAndTime": "Date and time",
+    "privateRoom": "Private room",
+    "password": "Password (optional)",
+    "passwordPlaceholder": "Leave blank for no password",
+    "required": "Required",
+    "slugError": "Only lowercase letters, numbers, hyphens",
+    "dateRequired": "Please pick a date and time",
+    "dateFuture": "Scheduled time must be in the future",
+    "alreadyHaveRoom": "You already have an active room",
+    "goToExisting": "Go to your existing room →",
+    "creating": "Creating…",
+    "scheduleRoom": "Schedule room",
+    "createRoom": "Create room",
+    "signInToCreate": "You must be signed in to create or schedule a room.",
+    "signIn": "Sign in"
+  },
+  "RoomPage": {
+    "back": "← Back",
+    "loading": "Loading…",
+    "draft": "Draft",
+    "listening": "{count, plural, one {# listening} other {# listening}}",
+    "chatting": "{count, plural, one {# chatting} other {# chatting}}",
+    "setUp": "Set up room",
+    "edit": "Edit",
+    "live": "live",
+    "makePublic": "Make public"
+  },
+  "RoomLayout": {
+    "signInToJoin": "Sign in to join the room"
+  },
+  "LoginModal": {
+    "title": "Join the conversation",
+    "continueWith": "Continue with {name}",
+    "or": "or",
+    "enterAnonymously": "Enter anonymously"
+  },
+  "AnonModal": {
+    "title": "Choose your nickname",
+    "description": "You can join anonymously with a nickname. No account required.",
+    "nickname": "Nickname",
+    "nicknamePlaceholder": "e.g. curious_panda",
+    "required": "Please enter a nickname",
+    "error": "Failed to create session. Please try again.",
+    "cancel": "Cancel",
+    "joining": "Joining…",
+    "joinAnonymously": "Join anonymously"
+  },
+  "ControlBar": {
+    "mute": "Mute",
+    "unmute": "Unmute",
+    "camOff": "Cam off",
+    "camOn": "Cam on",
+    "stopShare": "Stop share",
+    "shareScreen": "Share screen",
+    "notSupported": "Not supported",
+    "leaveStage": "Leave stage",
+    "goOnStage": "Go on stage",
+    "listenIn": "Listen in",
+    "requestStage": "Request stage",
+    "handDown": "Hand down",
+    "raiseHand": "Raise hand",
+    "leave": "Leave"
+  },
+  "Stage": {
+    "you": " (you)",
+    "noOne": "No one on stage",
+    "unmute": "Unmute",
+    "mute": "Mute",
+    "removeFromStage": "Remove from stage",
+    "kick": "Kick",
+    "ban": "Ban"
+  },
+  "Audience": {
+    "inTheRoom": "{count, plural, one {# in the room} other {# in the room}}",
+    "inviteToStage": "Invite to stage",
+    "kick": "Kick",
+    "ban": "Ban"
+  },
+  "Chat": {
+    "placeholder": "Say something…",
+    "send": "Send",
+    "empty": "Say something"
+  },
+  "Moderation": {
+    "deleteMessage": "Delete message",
+    "muteUser": "Mute user",
+    "kickUser": "Kick user"
+  },
+  "HandRaised": {
+    "wantsToSpeak": "✋ {count, plural, one {# person wants} other {# people want}} to speak",
+    "invite": "Invite"
+  },
+  "PasswordModal": {
+    "title": "Password required",
+    "description": "This room is password protected. Enter the password to join.",
+    "label": "Room password",
+    "placeholder": "Enter password",
+    "cancel": "Cancel",
+    "join": "Join room"
+  },
+  "RoomCard": {
+    "live": "live",
+    "startingSoon": "Starting soon",
+    "typeStage": "stage",
+    "typeChitchat": "chitchat",
+    "onStage": "{count, plural, one {# on stage} other {# on stage}}",
+    "chatting": "{count, plural, one {# chatting} other {# chatting}}",
+    "total": "{count, plural, one {# total} other {# total}}"
+  },
+  "RoomEdit": {
+    "title": "Edit room",
+    "roomType": "Room type",
+    "typeStage": "Stage",
+    "typeChitchat": "Chitchat",
+    "roomTitle": "Room title",
+    "roomTitlePlaceholder": "e.g. Morning tech catch-up",
+    "description": "Description (optional)",
+    "descriptionPlaceholder": "What's this room about?",
+    "tags": "Tags (comma separated)",
+    "tagsPlaceholder": "tech, ai, startups",
+    "privateRoom": "Private room",
+    "password": "Password (optional)",
+    "passwordPlaceholder": "Leave blank for no password",
+    "passwordKeepExisting": "Leave blank to keep current",
+    "passwordClear": "Set to clear existing password",
+    "titleRequired": "Title is required",
+    "cancel": "Cancel",
+    "saving": "Saving…",
+    "saveChanges": "Save changes"
+  },
+  "RoomSearch": {
+    "placeholder": "Search rooms…",
+    "search": "Search"
+  },
+  "StageInvite": {
+    "title": "You've been invited to the stage!",
+    "description": "A host or speaker has invited you to speak. Your microphone will be activated when you accept.",
+    "decline": "Decline",
+    "accept": "Accept & join stage"
+  },
+  "Chitchat": {
+    "noOne": "No one here yet"
+  },
+  "Common": {
+    "roles": {
+      "listener": "Listener",
+      "speaker": "Speaker",
+      "host": "Host",
+      "viewer": "Viewer"
+    }
+  }
+}

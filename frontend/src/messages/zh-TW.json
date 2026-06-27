@@ -1,0 +1,202 @@
+{
+  "Nav": {
+    "brand": "clubhouse",
+    "returnToRoom": "返回你的房間",
+    "opening": "開啟中…",
+    "openRoom": "開啟房間",
+    "schedule": "排程",
+    "signIn": "登入",
+    "join": "加入",
+    "signOut": "登出",
+    "signInToCreate": "請登入以開啟或排程房間。"
+  },
+  "Home": {
+    "hero": "今晚有什麼話題",
+    "subHero": "走進對話",
+    "comingUp": "即將登場",
+    "empty": "目前一片寧靜。",
+    "emptyHint": "成為今晚第一個開啟房間的人。",
+    "tonightAt": "今晚 {time}",
+    "tomorrowAt": "明天 {time}",
+    "dateAt": "{date} {time}"
+  },
+  "AuthError": {
+    "title": "認證錯誤",
+    "fallback": "登入過程中發生問題。",
+    "goHome": "返回首頁"
+  },
+  "RoomsPage": {
+    "startRoom": "+ 開啟房間",
+    "resultsFor": "搜尋結果：{q}",
+    "noRooms": "找不到任何房間。",
+    "noRoomsFor": "找不到「{q}」的相關房間。"
+  },
+  "CreateRoom": {
+    "pageTitle": "排程房間",
+    "back": "← 返回",
+    "roomType": "房間類型",
+    "typeStage": "舞台",
+    "typeStageDesc": "演講者上台，觀眾聆聽",
+    "typeChitchat": "閒聊",
+    "typeChitchatDesc": "所有人直接以說話者身份加入",
+    "roomTitle": "房間名稱",
+    "roomTitlePlaceholder": "例：早安科技聊天室",
+    "slug": "網址代碼",
+    "slugPlaceholder": "morning-tech-chat",
+    "description": "描述（選填）",
+    "descriptionPlaceholder": "這個房間在聊什麼？",
+    "tags": "標籤（以逗號分隔）",
+    "tagsPlaceholder": "科技, AI, 新創",
+    "scheduleForLater": "排程稍後開始",
+    "dateAndTime": "日期與時間",
+    "privateRoom": "私人房間",
+    "password": "密碼（選填）",
+    "passwordPlaceholder": "留空表示不設密碼",
+    "required": "必填",
+    "slugError": "只能使用小寫字母、數字和連字號",
+    "dateRequired": "請選擇日期與時間",
+    "dateFuture": "排程時間必須在未來",
+    "alreadyHaveRoom": "你已有一個進行中的房間",
+    "goToExisting": "前往你的房間 →",
+    "creating": "建立中…",
+    "scheduleRoom": "排程房間",
+    "createRoom": "建立房間",
+    "signInToCreate": "你需要登入才能建立或排程房間。",
+    "signIn": "登入"
+  },
+  "RoomPage": {
+    "back": "← 返回",
+    "loading": "載入中…",
+    "draft": "草稿",
+    "listening": "{count} 人在聆聽",
+    "chatting": "{count} 人在聊天",
+    "setUp": "設定房間",
+    "edit": "編輯",
+    "live": "直播中",
+    "makePublic": "公開房間"
+  },
+  "RoomLayout": {
+    "signInToJoin": "登入以加入房間"
+  },
+  "LoginModal": {
+    "title": "加入對話",
+    "continueWith": "以 {name} 繼續",
+    "or": "或",
+    "enterAnonymously": "匿名加入"
+  },
+  "AnonModal": {
+    "title": "選擇暱稱",
+    "description": "你可以使用暱稱匿名加入，無需帳號。",
+    "nickname": "暱稱",
+    "nicknamePlaceholder": "例：好奇的熊貓",
+    "required": "請輸入暱稱",
+    "error": "建立連線失敗，請再試一次。",
+    "cancel": "取消",
+    "joining": "加入中…",
+    "joinAnonymously": "匿名加入"
+  },
+  "ControlBar": {
+    "mute": "靜音",
+    "unmute": "取消靜音",
+    "camOff": "關閉攝影機",
+    "camOn": "開啟攝影機",
+    "stopShare": "停止分享",
+    "shareScreen": "分享螢幕",
+    "notSupported": "不支援",
+    "leaveStage": "離開舞台",
+    "goOnStage": "上台",
+    "listenIn": "聆聽",
+    "requestStage": "申請上台",
+    "handDown": "放下手",
+    "raiseHand": "舉手",
+    "leave": "離開"
+  },
+  "Stage": {
+    "you": "（你）",
+    "noOne": "目前舞台上沒有人",
+    "unmute": "取消靜音",
+    "mute": "靜音",
+    "removeFromStage": "從舞台移除",
+    "kick": "踢出",
+    "ban": "封禁"
+  },
+  "Audience": {
+    "inTheRoom": "房間內 {count} 人",
+    "inviteToStage": "邀請上台",
+    "kick": "踢出",
+    "ban": "封禁"
+  },
+  "Chat": {
+    "placeholder": "說些什麼…",
+    "send": "發送",
+    "empty": "說些什麼吧"
+  },
+  "Moderation": {
+    "deleteMessage": "刪除訊息",
+    "muteUser": "將用戶靜音",
+    "kickUser": "踢出用戶"
+  },
+  "HandRaised": {
+    "wantsToSpeak": "✋ {count} 人想發言",
+    "invite": "邀請"
+  },
+  "PasswordModal": {
+    "title": "需要密碼",
+    "description": "此房間受密碼保護，請輸入密碼以加入。",
+    "label": "房間密碼",
+    "placeholder": "輸入密碼",
+    "cancel": "取消",
+    "join": "加入房間"
+  },
+  "RoomCard": {
+    "live": "直播中",
+    "startingSoon": "即將開始",
+    "typeStage": "舞台",
+    "typeChitchat": "閒聊",
+    "onStage": "{count} 人在台上",
+    "chatting": "{count} 人在聊天",
+    "total": "共 {count} 人"
+  },
+  "RoomEdit": {
+    "title": "編輯房間",
+    "roomType": "房間類型",
+    "typeStage": "舞台",
+    "typeChitchat": "閒聊",
+    "roomTitle": "房間名稱",
+    "roomTitlePlaceholder": "例：早安科技聊天室",
+    "description": "描述（選填）",
+    "descriptionPlaceholder": "這個房間在聊什麼？",
+    "tags": "標籤（以逗號分隔）",
+    "tagsPlaceholder": "科技, AI, 新創",
+    "privateRoom": "私人房間",
+    "password": "密碼（選填）",
+    "passwordPlaceholder": "留空表示不設密碼",
+    "passwordKeepExisting": "留空保持原密碼",
+    "passwordClear": "輸入以清除現有密碼",
+    "titleRequired": "房間名稱為必填",
+    "cancel": "取消",
+    "saving": "儲存中…",
+    "saveChanges": "儲存變更"
+  },
+  "RoomSearch": {
+    "placeholder": "搜尋房間…",
+    "search": "搜尋"
+  },
+  "StageInvite": {
+    "title": "你被邀請上台了！",
+    "description": "主持人或演講者邀請你發言。接受後，你的麥克風將被開啟。",
+    "decline": "拒絕",
+    "accept": "接受並上台"
+  },
+  "Chitchat": {
+    "noOne": "目前還沒有人在這裡"
+  },
+  "Common": {
+    "roles": {
+      "listener": "聽眾",
+      "speaker": "演講者",
+      "host": "主持人",
+      "viewer": "觀眾"
+    }
+  }
+}
